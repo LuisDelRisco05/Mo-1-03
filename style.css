@@ -1,0 +1,51 @@
+body{
+    background: rgb(219,204,150);
+    background: linear-gradient(180deg, rgba(219,204,150,1) 0%, rgba(69,137,195,1) 26%, rgba(101,201,116,1) 97%);
+}
+header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#introduccion {
+    background-color: rgb(0, 123, 255);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2rem 20rem;
+    
+}
+
+.group{
+    display: flex;
+    flex-direction: row ;
+}
+
+#nines, #felices {
+    background-color: aqua;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 2rem;
+    width: 65rem;
+    margin-right: 1rem;
+}
+#juventud, #tristes {
+    background-color: rgb(134, 212, 77);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    width: 65rem;
+}
+
+#boda img{
+    box-shadow: 5px 5px 24px 5px #000000;
+}
+
+#hijos {
+    background-color: rgb(0, 123, 255);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2rem 20rem;
+}
